@@ -18,9 +18,7 @@ function alphabetize(word){
         return;
     }
     word = word.toLowerCase();
-    word = word.split('');
-    word.sort();
-    word = word.join('');
+    word = word.split('').sort().join('');
     return word;
 }
 
